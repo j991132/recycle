@@ -39,6 +39,6 @@ public class ClassifierFloatEfficientNet extends Classifier {
     // you can download this file from
     // see build.gradle for where to obtain this file. It should be auto
     // downloaded into assets.
-    return "efficientnet-lite0-fp32.tflite";
+    return "model_unquant.tflite";
   }
 }
